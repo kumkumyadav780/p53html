@@ -1,0 +1,18 @@
+body{
+  background-color: aqua;
+}
+
+.container{
+  background-color: aliceblue;
+}
+
+.head{
+  color: red;
+  text-align: center;
+  font-size: 20 px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: dashed;
+  
+}
