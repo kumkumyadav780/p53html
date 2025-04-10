@@ -16,3 +16,17 @@ body{
   text-decoration-style: dashed;
   
 }
+.para{
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+  word-spacing: 30;
+  letter-spacing: 200;
+  text-shadow: 3px 4px 5px blueviolet;
+}
+.wrapper{
+  background-color: brown;
+  color: aliceblue;
+  padding: 20px;
+  
+}
