@@ -30,3 +30,22 @@ body{
   padding: 20px;
   
 }
+.wrapper1{
+  background-color: blue;
+  color: aquamarine;
+  padding: 20px;
+  /*margin-top: 20px;*/
+  margin: 30px;
+  border-bottom-left-radius: 13px solid green;
+  /*border-radius: 30px;*/
+  /*border-bottom-left-radius: 30px;*/
+  box-shadow: 3px 4px 6px 7px black;
+}
+.parent{
+  display: flex;
+}
+h1{
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
