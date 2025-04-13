@@ -1,0 +1,35 @@
+.parent{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: white;
+  
+}
+img{
+  height: 500px;
+}
+
+h1{
+  font-size: xx-large;
+  padding-top: 50px;
+}
+
+p{
+ font-size: larger;
+}
+
+ul{
+ font-size: larger;
+}
+
+button{
+  background-color: red;
+  font-size: 15px;
+  color: white;
+  padding-left: 40px;
+ height: 30px;
+
+ 
+ 
+ 
+  }
