@@ -1,0 +1,37 @@
+.kuki{
+display: flex;
+padding: 20px;
+margin: 50px;
+
+}
+
+.twitter{
+border: solid 2px black;
+margin: 30px;
+
+
+
+
+}
+
+.youtube{
+border: solid 2px black;
+margin: 30px;
+}
+
+.instagram{
+  border: solid 2px black;
+  margin: 30px;
+
+}
+button{
+ background-color: black;
+ color: white;
+ border-radius: 30px;
+ width: 80%;
+
+}
+img{
+  height: 30%;
+ 
+}
