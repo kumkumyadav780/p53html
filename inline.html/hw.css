@@ -8,7 +8,7 @@ margin: 50px;
 .twitter{
 border: solid 2px black;
 margin: 30px;
-
+text-align: center;
 
 
 
@@ -17,11 +17,15 @@ margin: 30px;
 .youtube{
 border: solid 2px black;
 margin: 30px;
+text-align: center;
+
 }
 
 .instagram{
   border: solid 2px black;
   margin: 30px;
+text-align: center;
+
 
 }
 button{

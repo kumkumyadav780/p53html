@@ -30,7 +30,7 @@ button{
   background-color: red;
   font-size: 15px;
   color: white;
-  padding-left: 40px;
+  padding: 5px;
  height: 30px;
  box-shadow: 2px 3px 4px 5px black;
  }
