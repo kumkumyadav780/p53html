@@ -1,0 +1,12 @@
+.c{
+ background-color: cadetblue;
+ height: 100vh;
+ display: grid;
+ grid-template-columns: repeat(3,auto);
+grid-template-rows: repeat(3,auto);
+}
+
+.a,.b,.c,.d,.e,.f,.g,.h,.i{
+ background-color: greenyellow;
+ border: 2px solid black;
+}
