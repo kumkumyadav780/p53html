@@ -1,0 +1,36 @@
+body{
+ margin: 0;
+ padding: 0;
+}
+.parent{
+display: flex;
+ background-color: white;
+ width: 100%;
+ gap: 500px;
+ width: 500px;
+ align-items: center;
+ 
+ 
+}
+.parent input{
+  padding: 15px 140px;
+  border-radius: 50px;
+}
+h1{
+ color: brown;
+  font-family: cursive;
+  margin-left: 80px;
+}
+.n2{
+ 
+}
+.list{
+margin-left: 50px;
+list-style: none;
+display: flex;
+gap: 80px;
+}
+.i1{
+ height: 100vh;
+ background-position: center;
+}
