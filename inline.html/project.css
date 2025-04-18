@@ -32,6 +32,9 @@ list-style: none;
 display: flex;
 gap: 80px;
 }
+.i{
+ size: 100px;
+}
 .i1{
  height: 100vh;
  background-position: center;
