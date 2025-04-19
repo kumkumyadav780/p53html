@@ -1,0 +1,13 @@
+h1{
+font-family: "Playwrite RO", cursive;
+}
+h2{
+font-family: "Bungee Spice", sans-serif;
+}
+h3{
+font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+.k1::after{
+ content: "yadav";
+ color: brown;
+}
