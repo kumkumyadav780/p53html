@@ -24,7 +24,9 @@ h1{
   font-family: cursive;
   margin-left: 80px;
 }
+.image{
 
+}
 
 .list{
 margin-left: 50px;
@@ -40,6 +42,7 @@ gap: 80px;
  background-position: center;
 }
 .image{
+  size: cover;
   font-size: xx-large;
   text-align: center;
 }
@@ -49,6 +52,56 @@ text-align: center;
 }
 .product{
   display: flex;
-  height: 20px;
+}
+ .parah{
+ line-height: 2px;
 }
 
+.cell{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+#p1{
+  text-transform: capitalize;
+  align-items: center;
+  }
+ 
+  #p2{
+   text-transform: capitalize;
+   align-items: center;
+   }
+   
+   #p3{
+       text-transform: capitalize;
+       align-items: center;
+     }
+ 
+  #p4{
+       text-transform: capitalize;
+       align-items: center;
+       }
+ 
+
+.product{
+  padding-top: 100px;
+}
+ .d1{
+ padding-left: 200px;
+ margin-right: 20px;
+  }
+ .d2{ 
+  padding-right: 200px;
+ }
+
+ .cc{
+  font-size: xx-large;
+  text-align: center;
+  line-height: 20px;
+  text-transform: capitalize;
+  
+ }
+ #pp1{
+ text-transform: lowercase;
+ }
+ 
