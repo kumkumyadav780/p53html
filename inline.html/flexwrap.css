@@ -1,0 +1,19 @@
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+div{
+height: 200px;
+width: 200px;
+border: 2px solid black;
+}
+.div1{
+ background-color: red;
+}
+.div2{
+ background-color: blue;
+}
+.div3{
+background-color: green;
+}
