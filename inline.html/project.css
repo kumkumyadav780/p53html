@@ -10,10 +10,22 @@ display: flex;
  width: 100%;
  gap: 500px;
  width: 500px;
- align-items: center;
- 
- 
+ align-items: center; 
 }
+.parent label{
+ display: none;
+}
+
+@media screen and (max-width:650px ) {
+  .parent label{
+   display: block;
+  } 
+  .parent list{
+                     display: none;
+                    }                  
+}
+
+
 .parent input{
   padding: 15px 140px;
   border-radius: 20px;
@@ -60,6 +72,11 @@ text-align: center;
 .cell{
  display: flex;
  justify-content: space-evenly;
+ line-height: 2px;
+ 
+}
+.cell p{
+ text-align: left;
 }
 .cell img{
 width: 400px;
@@ -105,9 +122,13 @@ width: 400px;
   line-height: 20px;
   text-transform: capitalize;
   }
+ .cc h1{
+ color: black;
+ }
 
  #pp1{
  text-transform: lowercase;
+ text-align: center;
  }
 
  .f1{
@@ -129,8 +150,16 @@ width: 400px;
  }
 .brand2{
  display: flex;
- justify-content: space-evenly;
+ 
  text-transform: uppercase;
+}
+.brand img{
+  border-radius: 50px;
+ 
+}
+.brand2 img{
+ border-radius: 50px;
+
 }
  
  
