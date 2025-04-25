@@ -51,7 +51,9 @@ display: flex;
 gap: 100px;
 padding-left: 50px;
 padding-right: 250px;
+
 }
+
 .i{
  size: 100px;
 }
@@ -244,4 +246,15 @@ text-transform: capitalize;
 }
 #f2{
  font-size: 30px;
+}
+.fa{
+ list-style: none;
+}
+
+@media screen(min-width: 200px) and (max-width: 500px) {
+  body{
+   background-color: black;
+  background-color: cornflowerblue;
+
+  }
 }
