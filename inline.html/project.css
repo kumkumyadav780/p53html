@@ -1,29 +1,35 @@
-body{
+*{
  margin: 0;
- padding: 0;
+ padding: 0;}
+.top{
+ background-color: rgb(246, 230, 246);
+ font-size: 30px;
 
 }
 .parent{
 display: flex;
  background-color: white;
- color: black;
  width: 100%;
  gap: 500px;
- width: 500px;
  align-items: center; 
+ position: relative;
+ padding-top: 20px;
 }
-.parent label{
- display: none;
+.parent h1{
+ font-size: 30px;
+ font-family: cursive;
+  margin-left: 80px;
+  color: brown;
+}
+.n2{
+  width: 100%;
+  background-color: white;
+ color: black;
+ padding-top: 30px;
+ justify-content: space-evenly;
 }
 
-@media screen and (max-width:650px ) {
-  .parent label{
-   display: block;
-  } 
-  .parent list{
-                     display: none;
-                    }                  
-}
+
 
 
 .parent input{
@@ -31,20 +37,20 @@ display: flex;
   border-radius: 20px;
   
 }
-h1{
- color: brown;
-  font-family: cursive;
-  margin-left: 80px;
-}
+
 .image{
-max-height:fit-content ;
-}
+  max-height:fit-content ;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  }
 
 .list{
 margin-left: 50px;
 list-style: none;
 display: flex;
-gap: 80px;
+gap: 100px;
+padding-left: 50px;
+padding-right: 250px;
 }
 .i{
  size: 100px;
@@ -57,6 +63,8 @@ gap: 80px;
   size: cover;
   font-size: xx-large;
   text-align: center;
+  flex-wrap: wrap;
+
 }
 p{
 font-size: larger;
@@ -66,45 +74,55 @@ text-align: center;
   display: flex;
 }
  .parah{
- line-height: 2px;
+ line-height: 50px;
 }
 
 .cell{
  display: flex;
  justify-content: space-evenly;
  line-height: 2px;
- 
+ flex-wrap: wrap;
 }
 .cell p{
  text-align: left;
 }
 .cell img{
 width: 400px;
+padding-bottom: 30px;
 }
 
 #p1{
   text-transform: capitalize;
   align-items: center;
+  line-height: 20px;
   }
  
   #p2{
    text-transform: capitalize;
    align-items: center;
+  line-height: 20px;
+
    }
    
    #p3{
        text-transform: capitalize;
        align-items: center;
+  line-height: 20px;
+
      }
  
   #p4{
        text-transform: capitalize;
        align-items: center;
+  line-height: 20px;
+
        }
  
 
 .product{
   padding-top: 50px;
+  flex-wrap: wrap;
+
 }
  .d1{
  padding-left: 100px;
@@ -113,6 +131,7 @@ width: 400px;
   }
  .d2{ 
   padding-right: 200px;
+  
  
  }
 
@@ -121,9 +140,14 @@ width: 400px;
   text-align: center;
   line-height: 20px;
   text-transform: capitalize;
+  flex-wrap: wrap;
+  padding-top: 80px;
+
   }
  .cc h1{
  color: black;
+padding-top: 3px;
+padding-bottom: 20px;
  }
 
  #pp1{
@@ -136,32 +160,88 @@ width: 400px;
   font-size: 60px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
  }
  .f2{
  font-size: 40px;
  font-weight: lighter;
- line-height: 1px;
+ line-height: 20px;
+ padding-bottom: 60px;
  }
 
  .brand{
   display: flex;
   justify-content: space-evenly;
   text-transform: uppercase;
+  flex-wrap: wrap;
+
  }
 .brand2{
  display: flex;
- 
+ justify-content: space-evenly;
  text-transform: uppercase;
+ flex-wrap: wrap;
+
 }
 .brand img{
   border-radius: 50px;
- 
 }
 .brand2 img{
  border-radius: 50px;
+}
+
+.hed{
+ text-align: left;
+ color: white;
+}
+
+.t{
+ font-size: 60px;
+ color: black;
+ font-family: 'Times New Roman', Times, serif;
+ padding-top: 50px;
+ text-align: center;
+}
+.t p{
+ font-size: 30px;
+}
+
+.tw1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tw2{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
 
 }
- 
- 
- 
- 
+
+.tw1 img{
+ border-radius: 30px;
+ padding: 6px;
+ padding-top: 40px;
+}
+.tw2 img{
+ border-radius: 40px;
+ padding: 6px;
+
+}
+
+.footer{
+  width: 100%;
+ background-color: rgb(61, 18, 18);
+color: white;
+ display: flex;
+ justify-content: space-evenly;
+
+}
+
+#fi{
+text-transform: capitalize;
+}
+#f2{
+ font-size: 30px;
+}
