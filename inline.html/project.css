@@ -1,10 +1,15 @@
 *{
  margin: 0;
- padding: 0;}
+ padding: 0;
+ text-decoration: none;
+}
 .top{
  background-color: rgb(246, 230, 246);
  font-size: 30px;
 
+}
+.kuki{
+ position: fixed;
 }
 .parent{
 display: flex;
@@ -44,6 +49,10 @@ display: flex;
   padding-bottom: 50px;
   }
 
+  .image img{
+    /* margin-top: 130px; */
+  }
+
 .list{
 margin-left: 50px;
 list-style: none;
@@ -74,6 +83,8 @@ text-align: center;
 }
 .product{
   display: flex;
+  /* height: 500px; */
+  justify-content: center;
 }
  .parah{
  line-height: 50px;
@@ -125,8 +136,9 @@ padding-bottom: 30px;
   padding-top: 50px;
   flex-wrap: wrap;
 
+
 }
- .d1{
+ /* .d1{
  padding-left: 100px;
  margin-right: 10px;
 
@@ -135,7 +147,7 @@ padding-bottom: 30px;
   padding-right: 200px;
   
  
- }
+ } */
 
  .cc{
   font-size: xx-large;
